@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(151,151,151,0.03);
+   }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+
+}
+.logo img{
+    height: 35px;
+}
+nav .menu{
+    display: flex;
+}
+nav .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 0;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#324752 ;
+    letter-spacing: 1px;
+}
+.search{
+     width: 250px; 
+     height: 40px;
+     background-color: rgba(245,245,245,0.8);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 20px;
+     padding: 0px 20px;
+}
+.search input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.search i {
+    color: #3a3a3a;
+}
+nav .menu li a:hover {
+    background-color: #242424;
+    color: #fff;
+    box-shadow: 5px 10px 30px rgba(53,53,53, 0.1);
+    transition: all ease 0.2s;
+}
+#container{
+    padding-top: 100px;
+    background-color: #fff;
+    display: flex;
+}
+
+.showcase-box{
+   width: 430px;
+   height: 250px;
+   box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   margin: 0px 20px 10px 20px;
+   overflow: hidden;
+}
+.showcase-box img:hover{
+    background: red;
+    transition:0.5s ease-in;
+}
+.showcase-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    transition: 0.3s ease-in-out;
+    
+}
+.showcase-heading{
+    padding-top: 50px;
+    padding-left: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: blue;
+    transition-duration: 0.3s;
+    opacity: 0.2s;
+}
+.main{
+    background: url(./img/movie8.jpg);
+    height: 75vh;
+    width: auto;
+    background-position: top;
+    align-items: center;
+    padding-top: 200px;
+    text-align: center;
+}
+.text-box{
+    color:#fff;
+    padding: 20px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+}
+.btn{
+    background-color: #999;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #e7036a;
+}
+.primary-mini{
+    text-transform: uppercase;
+    color-interpolation-filters: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .menu-area{
+    width: 100%;
+    overflow: auto;
+    background-color: #999;
+}
+.menu-area ul {
+    list-style: none;
+}
+.menu-area ul li{
+    float: left;
+    overflow: auto;
+    
+}
+.menu-area ul li a {
+    width: 100px;
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+}
+.menu-area ul li a:hover{
+    background: #fff;
+}
+.logo{
+    float: left;
+    padding: 2px;
+    margin: 4px;
+    width: 40px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+.search-bar{
+    margin-left: 200px;
+}
+#search{
+    width: 250px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 25px;
+    height: 30px;
+    border: 1px solid #333;
+    border-radius: 50px;
+    border: none;
+}
+input{
+    width: 50%;
+    height: 50%;
+    vertical-align: middle;
+    background: #fff;
+    border: none;
+   }
+.main-user li a i {
+    padding: 16px;
+    color: #fff;
+    font-size: 20px;
+    margin-left: -27px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .box{
+    margin-left: 300px;
+    width: 300px;
+    height: 41px;
+    border: 1px solid #333;
+    border-radius: 50px;
+    padding: 5px 10px;
+    border: none;
+}
+input{
+ width: 50%;
+ height: 50%;
+ vertical-align: middle;
+ background: #fff;
+ border: none;
+}
+.pix {
+    float: right;
+    margin-top: 1px;
+} */
